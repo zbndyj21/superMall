@@ -1,6 +1,5 @@
 <template>
     <div id="app">
-        <sideBar></sideBar>
         <div class="main">
             <router-view></router-view>
         </div>
@@ -8,10 +7,8 @@
 </template>
 
 <script>
-import sideBar from "../src/components/sideBar";
-export default {
-    components: {
-        sideBar,
-    },
-};
+export default {};
 </script>
+<style scoped>
+@import "./assets/css/public.css";
+</style>
